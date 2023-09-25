@@ -1,121 +1,13 @@
 @charset "UTF-8";
 
-
 body.conteiner{
-    display: flex;
-    flex-direction: column;
-}
-
-.conteiner main{
-    flex: 1 1 0;
-    font-family: 'mulish';
     
-}
-
-header{
-    height: 17%;
-}
-
-section#id-section-login{
-
-    text-align: center;
-    width: 350px;
-    height: 300px;
-    margin: auto;
-}
-
-section#id-section-criar-conta{
-    text-align: center;
-    width: 350px;
-    height: 70px;
-    margin: auto;
 }
 
 h1{
     text-align: center;
-    padding: 40px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
     font-size: 2.9em;
     font-weight: 300;
     color: var(--isazul);
 }
-
-div{
-    background-color: transparent;
-    width: 340px;
-    height: 60px;
-    margin: auto;
-    margin-bottom: 10px;
-}
-
-form{
-    background-color: transparent;
-    height: 60px;
-    width: 340px;
-    position: relative;
-}
-
-input{
-    background-color: rgb(255, 255, 255);
-    position: relative;
-    width: 330px;
-    height: 60px;
-    padding: 20px 5px 5px 0px;
-    border-radius: 4px;
-    font-size: 1.2em;
-}
-
-label{
-    position: relative;
-    top: -60px;
-    left: -135px;
-    font-size: 1.1em;
-    
-}
-
-input#id-input-btn-logar{
-    font-weight: 200;
-    font-size: 1.7em;
-    background-color: white;
-    width: 330px;
-    margin:auto;
-    padding: 0px 0px 3px 0px;
-}
-
-input#id-input-btn-criar-conta{
-    font-weight: 200;
-    font-size: 1.7em;
-    background-color: white;
-    width: 330px;
-    margin:auto;
-    padding: 4px 0px 0px 60px;
-}
-
-div#id-div-btn-criar-conta{
-    margin: 70px 0px 0px 4px;
-}
-
-a{
-    position: relative;
-    top: 19px;
-    text-align: center;
-    background-color: rgb(255, 255, 255);
-    border-radius: 4px;
-    font-size: 1.2em;
-}
-div#id-div-btn-esqueci-senha{
-    background-color: white;
-    margin-top: 15px;
-    border-radius: 4px;
-    width: 330px;
-}
-
-div#id-div-btn-esqueci-senha:hover{
-    box-shadow: 1px 1px 1px var(--isroxo), -1px -1px 1px var(--isazul);
-}
-
-textarea:focus, input:focus{
-    outline: 1px solid var(--isazul);
-}
-
-
-

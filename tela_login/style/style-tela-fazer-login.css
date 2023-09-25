@@ -1,25 +1,39 @@
 @charset "UTF-8";
 
+html{
+    height: 100%;
+}
+
 main{
-    position: relative;
     font-family: 'mulish';
-    height: 97%;
+    height: 80%;
+}
+
+header{
+    height: 17%;
+}
+
+section#id-section-login{
+
+    text-align: center;
+    width: 350px;
+    height: 300px;
+    margin: auto;
+}
+
+section#id-section-criar-conta{
+    text-align: center;
+    width: 350px;
+    height: 70px;
+    margin: auto;
 }
 
 h1{
     text-align: center;
-    padding: 90px 0px 40px 0px;
+    padding: 40px 0px 0px 0px;
     font-size: 2.9em;
     font-weight: 300;
     color: var(--isazul);
-}
-
-section{
-    background-color: transparent;
-    text-align: center;
-    width: 350px;
-    height: 400px;
-    margin: auto;
 }
 
 div{
@@ -28,7 +42,6 @@ div{
     height: 60px;
     margin: auto;
     margin-bottom: 10px;
-    
 }
 
 form{
@@ -100,4 +113,5 @@ div#id-div-btn-esqueci-senha:hover{
 textarea:focus, input:focus{
     outline: 1px solid var(--isazul);
 }
+
 

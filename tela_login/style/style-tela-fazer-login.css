@@ -1,12 +1,15 @@
 @charset "UTF-8";
 
-html{
-    height: 100%;
+
+body.conteiner{
+    display: flex;
+    flex-direction: column;
 }
 
-main{
+.conteiner main{
+    flex: 1 1 0;
     font-family: 'mulish';
-    height: 80%;
+    
 }
 
 header{
@@ -113,5 +116,6 @@ div#id-div-btn-esqueci-senha:hover{
 textarea:focus, input:focus{
     outline: 1px solid var(--isazul);
 }
+
 
 

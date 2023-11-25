@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fazer Login</title>
+     <link rel="stylesheet" href="../style_gerel/style_geral.css">
+    <link rel="stylesheet" href="style/style-tela-fazer-login.css">
+    
+</head>
+<body class="conteiner">  
+    <header>
+        <h1>faça Login!</h1>
+    </header>
+    <main>
+        <section id="id-section-fazer-login">
+            <form action="cad.php">
+                <div id="id-div-email">
+                    <label for="id-input-email" id="id-label-email">Email</label>
+                    <input type="email" name="name-email" id="id-input-email" class="input_hover_none">
+                </div>
+                <div id="id-div-senha">
+                    <label for="id-input-senha" id="id-label-senha">Senha</label>
+                    <input type="password" name="name-senha" id="id-input-senha" class="input_hover_none">
+                </div>
+                <input type="submit" value="Logar" id="id-input-submit-logar">
+                <a href="tela_esqueci_a_senha/index.html">Esqueci a minha senha !</a>
+            </form>
+        </section>
+        <section id="id-section-criar-conta">
+                <input type="submit" value="Criar Conta ?" id="id-input-submit-criar-conta" name="name-input-submit-criar-conta" onclick="chamarTelaCriarConta()">
+        </section>
+    </main>
+    <footer>
+        <p>Infinty Sistem &reg</p>
+    </footer>
+</body>
+    <script src="javaScript/js-mobile-tela-login.js"></script>
+</html>

@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+
+
+
+div#id-div-minha-conta:last-child{
+    width: 90%;
+    height: 90%;
+}
+
+h1{
+    margin: 40px auto 20px auto;
+    font-family: 'mulish';
+    font-weight: 500;
+    width: 320px;
+    text-align: center;
+    font-size: 2.9em;
+}
+
+input.class-btn-opcoes-menu{
+    width: 95%;
+    height: 40px;
+    font-family: mulish;
+    font-size: 1.3em;
+    border: 1px solid black;
+    margin: 20px 0px 20px 29px;
+    text-align: center;
+    border-radius: 4px; 
+}
+
+input.class-btn-opcoes-menu:hover{
+    border: 1px solid white;
+    box-shadow: 1px 1px 3px #DD0AC7, -1px -1px 3px #0007E0;
+    box-sizing: border-box;
+}

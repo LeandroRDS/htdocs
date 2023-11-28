@@ -24,6 +24,10 @@ img:hover{
 }
 
 
+div#img-login{
+    width: 50px;
+}
+
 div#img-login > img{
     margin: 2px 0px 0px 8px;
 }

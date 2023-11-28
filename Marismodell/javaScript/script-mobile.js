@@ -17,5 +17,11 @@ function fazerLogin(){
     location.href = 'tela_login/tela-fazer-login.html'
 }
 
+/* Script Botão ajuda*/
+var btn_ajuda = window.document.querySelector('input#id-btn-ajuda')
+btn_ajuda.addEventListener('click', chamarTelaAjuda)
+function chamarTelaAjuda(){
+    location.href = 'tela-ajuda/index.html'
+}
 
 

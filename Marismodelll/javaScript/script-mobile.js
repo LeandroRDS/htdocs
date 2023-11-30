@@ -24,4 +24,11 @@ function chamarTelaAjuda(){
     location.href = 'tela-ajuda/index.html'
 }
 
+/* Script Botão carrinho*/
+var btn_carrinho = window.document.querySelector('img#id-img-carrinho')
+btn_carrinho.addEventListener('click', camarTelaCarrinho)
+function camarTelaCarrinho(){
+    location.href = 'tela-carrinho/index.html'
+}
+
 
